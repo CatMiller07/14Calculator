@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+	    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-  1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">		
+    <title>Simple Calculator</title>		
+
+	</head>
+	
+    <body>
+	 <div id="main-body">
+	  <input id="calc-fld" type=number>
+	   <button id="AC" type="button" class="btn btn-lg btn-danger">AC</button>	 
+	   <button id="CE" type="button" class="btn btn-lg btn-danger">CE</button>	
+	   <div class="operation-codes">	 
+		   <button data-oper  ="X" id="mult" type ="button" class="btn btn-lg btn-default opcode">X</button>
+		   <button data-oper  ="/" id="quot" type ="button" class="btn btn-lg btn-default opcode">/</button>	
+		   <button data-oper  ="+" id="add" type ="button" class="btn btn-lg btn-default opcode"> +</button>
+		   <button data-oper  ="-" id="sub" type ="button" class="btn btn-lg btn-default opcode"> -</button> 
+		   <button id="EQ" type="button" class="btn btn-lg btn-success">=</button> 	 
+	   </div>	   
+	   <br>	 	 
+		<div class="number-pad">
+	       <button data-numval="1" id="butn1" type="button" class="btn btn-lg btn-primary number">1</button>	
+	       <button data-numval="2"id="butn2" type="button" class="btn btn-lg btn-primary number">2</button>	
+	       <button data-numval="3"id="butn3" type="button" class="btn btn-lg btn-primary number">3</button>							   <button data-numval="4" id="butn4" type="button" class="btn btn-lg btn-primary number">4</button>	
+	       <button data-numval="5" id="butn5" type="button" class="btn btn-lg btn-primary number"> 5</button>				     	   <br>
+	       <button data-numval="6" id="butn6" type="button" class="btn btn-lg btn-primary number">6</button> 
+		   <button data-numval="7" id="butn7" type="button" class="btn btn-lg btn-primary number">7</button>	
+	      <button data-numval="8" id="butn8" type="button" class="btn btn-lg btn-primary number">8</button>	
+	      <button data-numval="9" id="butn9" type="button" class="btn btn-lg btn-primary number">9</button>
+		  <button data-numval="0" id="butn0" type="button" class="btn btn-lg btn-primary number">0</button>
+	    </div> 		
+	
+	</div>
+	 <!-- JQuery                                  -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>		
+	 <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	 <script src="index.js"></script>	
+	</body>
+</html>
