@@ -6,7 +6,8 @@
 	border: 5px color #000;
 	border-width: 5px;
 	border-style:ridge;
-	
+	border-radius: 15px;
+	background-color: black;
 }
 #calc-fld{
 	width: 100%;
@@ -14,10 +15,12 @@
 	border: 2px solid #000;	
 }
 .btn{
-	 margin: 1px 1px 1px 1px;
+	 margin: 2px 4px 2px 1px;
 	
 }
-input{
+
+#calc-fld{
 	font-size: 2em;
 	font-weight: bold;
+	 background-color: aliceblue;
 }
