@@ -1,26 +1,35 @@
 #main-body{
-	top: 50px;
-	margin-left: 25%;
+	margin: 5% 5% 5% 31% ;
 	width:  400px;
-	height:  345px;
+	height:  385px;
 	border: 5px color #000;
 	border-width: 5px;
 	border-style:ridge;
 	border-radius: 15px;
-	background-color: black;
+	
+	zoom: 1;
+	filter: alpha(opacity=50);
+	background-color: gray;
 }
 #calc-fld{
 	width: 100%;
 	height: 80px;
 	border: 2px solid #000;	
 }
-.btn{
-	 margin: 2px 4px 2px 1px;
-	
+.btn.number,.btn.opcode, btn.execute{
+	 width: 55px;
+	 margin: 4px 8px 5px 8px;	
 }
 
+.btn-primary{
+	border-color: red;
+}
 #calc-fld{
 	font-size: 2em;
 	font-weight: bold;
 	 background-color: aliceblue;
+}
+#dot{
+	 
+	font-size: 1.25em;
 }

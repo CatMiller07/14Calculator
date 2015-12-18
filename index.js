@@ -5,13 +5,13 @@ $(document).ready(function(){
 	var  operation="";
 	
 	$("#AC").on("click",function(){
-		  $("#calc-fld").val("");
+		  $("#calc-fld").html("");
 		  factors = [];
 		  temp = "";
 	});
 	
 	$("#CE").on("click",function(){
-		  $("#calc-fld").val("");
+		  $("#calc-fld").html("");
 		  temp = "";
 		  
 	});
@@ -62,7 +62,7 @@ $(document).ready(function(){
 				console.log("factor1 - factor2= "+answer);
 			};
 			
-			$("#calc-fld").val(answer);
+			$("#calc-fld").html(answer);
 				
 	}); 
 		

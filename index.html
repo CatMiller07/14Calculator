@@ -13,15 +13,16 @@
 	
     <body>
 	 <div id="main-body">
-		<div id="calc-fld">0</div>
+		<div id="calc-fld"></div>
 	   <button id="AC" type="button" class="btn btn-lg btn-danger">AC</button>	 
 	   <button id="CE" type="button" class="btn btn-lg btn-danger">CE</button>	
+	 
 	   <div class="operation-codes">	 
-		   <button data-oper  ="X" id="mult" type ="button" class="btn btn-lg btn-default opcode">X</button>
-		   <button data-oper  ="/" id="quot" type ="button" class="btn btn-lg btn-default opcode">/</button>	
-		   <button data-oper  ="+" id="add" type ="button" class="btn btn-lg btn-default opcode"> +</button>
-		   <button data-oper  ="-" id="sub" type ="button" class="btn btn-lg btn-default opcode"> -</button> 
-		   <button id="EQ" type="button" class="btn btn-lg btn-success">=</button> 	 
+		   <button data-oper  ="X" id="mult" type ="button" class="btn btn-default btn-lg opcode">X</button>
+		   <button data-oper  ="/" id="quot" type ="button" class="btn btn-default btn-lg opcode">/</button>	
+		   <button data-oper  ="+" id="add"  type ="button" class="btn btn-default btn-lg opcode"> +</button>
+		   <button data-oper  ="-" id="sub"  type ="button" class="btn btn-default btn-lg opcode"> -</button> 
+		   <button id="EQ" type="button" class="btn btn-lg btn-success execute">=</button> 	 
 	   </div>	   
 	   <br>	 	 
 		<div class="number-pad">
@@ -34,6 +35,7 @@
 	      <button data-numval="8" id="butn8" type="button" class="btn btn-lg btn-primary number">8</button>	
 	      <button data-numval="9" id="butn9" type="button" class="btn btn-lg btn-primary number">9</button>
 		  <button data-numval="0" id="butn0" type="button" class="btn btn-lg btn-primary number">0</button>
+		  <button data-numval="." id="dot" type="button" class="btn btn-lg btn-primary number">.</button>	 	
 	    </div> 		
 	
 	</div>
